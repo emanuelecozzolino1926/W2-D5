@@ -1,4 +1,8 @@
 /* Your styles here */
+body{
+    background-color: #E9EDEE;
+}
+
 
 /* HEADER */
 header {
@@ -47,9 +51,13 @@ width: 100%;
 
 /* GIFT SECTION */
 
-.gift-cont{
+.main-cont{
     width: 98%;
     margin: 30px auto 20px auto;
+}
+
+.gift-cont{
+    margin-bottom: 30px;
 }
 
 .gift-button{
@@ -83,4 +91,32 @@ width: 100%;
 .gift-sub-title{
     font-weight: 550;
     padding-bottom: 40px;
+}
+
+/* GIFT IMAGE SECTION*/
+.gift-image-cont{
+    background-color: white;
+    padding: 15px 20px;;
+}
+
+.image-title{
+    display: inline-block;
+    font-weight: 550;
+    padding: 0 10px;
+    margin-bottom: 8px;
+}
+
+.shop-button{
+    border: none;
+    background-color: white;
+    color: #0B4B50;
+    font-weight: 700;
+}
+
+.img-size{
+    width: 23.3%;
+    height: 400px;
+    padding: 0 10px 0;
+    border-radius: 30px;
+    box-shadow: 3px 3px 6px rgba(0,0,0,0.15);
 }
