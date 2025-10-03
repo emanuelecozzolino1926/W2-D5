@@ -154,3 +154,77 @@ console.log(numericArray[y])
     es. [f, b, e] --> [6, 2, 5]
 */
 const charactersArray = ['g', 'n', 'u', 'z', 'd']
+
+const alfabeto = []
+//CREIAMO UN CICLO FOR CHE ENTRA NEL NOSTRO ARRAY E CON SWITCH CONTROLLIAMO LE LETTERE SE LA LETTERA E' GIUSTA SE GIUSTA LA PUSHIIAMO NEL ARREY ALFABETO
+for (let i = 0; i < charactersArray.length; i++) {
+  let lettere = charactersArray[i]
+
+  switch (lettere) {
+    case 'a':
+      alfabeto.push(0)
+      break
+    case 'b':
+      alfabeto.push(1)
+      break
+    case 'c':
+      alfabeto.push(2)
+      break
+    case 'd':
+      alfabeto.push(3)
+      break
+    case 'e':
+      alfabeto.push(4)
+      break
+    case 'f':
+      alfabeto.push(5)
+      break
+    case 'g':
+      alfabeto.push(6)
+      break
+    case 'h':
+      alfabeto.push(7)
+      break
+    case 'i':
+      alfabeto.push(8)
+      break
+    case 'l':
+      alfabeto.push(9)
+      break
+    case 'm':
+      alfabeto.push(10)
+      break
+    case 'n':
+      alfabeto.push(11)
+      break
+    case 'o':
+      alfabeto.push(12)
+      break
+    case 'p':
+      alfabeto.push(13)
+      break
+    case 'q':
+      alfabeto.push(14)
+      break
+    case 'r':
+      alfabeto.push(15)
+      break
+    case 's':
+      alfabeto.push(16)
+      break
+    case 't':
+      alfabeto.push(17)
+      break
+    case 'u':
+      alfabeto.push(18)
+      break
+    case 'v':
+      alfabeto.push(19)
+      break
+    case 'z':
+      alfabeto.push(20)
+      break
+  }
+}
+
+console.log(alfabeto)
