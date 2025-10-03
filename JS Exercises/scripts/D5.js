@@ -121,6 +121,17 @@ console.log(justTrims)
     "color" ha valore "b", mostra in console "Fizz". Altrimenti, mostra in console "Buzz".
 */
 
+//CREIAMO UN CICLO CHE ENTRA NEL ARRAY DI OGETTI CARS, E PRENDE IL PRIMO INDICE DI COLOR(0) E LO CONFRONTIAMO CON LA CONDIZIONE IF
+for(i = 0; i < cars.length; i++){
+  let verifica = cars[i].color[0]
+
+  if(verifica === "b"){
+    console.log("Fizz")
+  } else {
+    console.log("Buzz")
+  }
+}
+
 /* ESERCIZIO 9
     Utilizza un ciclo while per stampare in console i valori del seguente array numerico fino al raggiungimento del numero 32.
 */
