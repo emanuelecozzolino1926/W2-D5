@@ -138,6 +138,15 @@ for(i = 0; i < cars.length; i++){
 const numericArray = [
   6, 90, 45, 75, 84, 98, 35, 74, 31, 2, 8, 23, 100, 32, 66, 313, 321, 105,
 ]
+//HO USATO Y PERCHE CON I MI DAVA ERRORE (NON SO PERCHE PENSO PER I FOR) IL HILE INIZIA PERCHE LA CONDIZIONE E' FALSA DIVENTA VERA QUANDO DIVENTA UGUALE A 32 E INCEREMENTIAMO IL CONTEGGIO CON Y++
+let y = 0
+
+while(numericArray[y] !== 32){
+  y++
+}
+console.log(numericArray[y])
+
+
 
 /* ESERCIZIO 10
     Partendo dall'array fornito e utilizzando un costrutto switch, genera un nuovo array composto dalle posizioni di ogni carattere all'interno
