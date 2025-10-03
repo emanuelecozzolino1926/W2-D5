@@ -140,3 +140,28 @@ width: 100%;
     color: #0B4B50;
     font-weight: 700;
 }
+/* BACK TO TOP */
+.top-sec{
+    background-color: #364759;
+}
+
+.top-text{
+    text-decoration: none;
+    color: inherit;
+    text-decoration: underline;
+}
+
+.top-text-cont{
+    padding: 15px;
+}
+
+/* footer */
+
+.footer-cont{
+    background-color: #222F3F;
+    padding: 40px;
+}
+
+.logo-footer{
+    height: 50px;
+}
