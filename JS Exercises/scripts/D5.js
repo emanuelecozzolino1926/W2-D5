@@ -35,6 +35,12 @@ console.log(pets.reverse())
 /* ESERCIZIO 4
     Scrivi del codice per spostare il primo elemento dall'array "pets" in ultima posizione.
 */
+// NB SONO IMPAZZITO, MA IN REALTA' HO FATTO BENE AVENDO INVERTITO ARRAY ORA IN PRIMA POSZIONE C'E' REDFISH NON DOG, QUINDI REDFISH DA PRIMO E TORNATO ULTIMO
+const spostare = pets.splice(0, 1)
+
+pets.splice(3, 0, spostare[0])
+
+console.log(pets)
 
 /* ESERCIZIO 5
     Dato il seguente array di oggetti, scrivi del codice per aggiungere ad ognuno di essi una proprietà "licensePlate" con valore a tua scelta.
