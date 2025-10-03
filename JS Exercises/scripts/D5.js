@@ -22,10 +22,15 @@ for(let i = 0; i < pets.length; i++){
 /* ESERCIZIO 2
     Scrivi del codice per ordinare alfabeticamente gli elementi dell'array "pets".
 */
+//Utilizziamo il metodo sort per ordiinare in ordine alfabetico array
+console.log(pets.sort())
+
 
 /* ESERCIZIO 3
     Scrivi del codice per stampare nuovamente in console gli elementi dell'array "pets", questa volta in ordine invertito.
 */
+//Utilizziamo il metodo reverse per ordiinare in ordine alfabetico array
+console.log(pets.reverse())
 
 /* ESERCIZIO 4
     Scrivi del codice per spostare il primo elemento dall'array "pets" in ultima posizione.
