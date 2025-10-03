@@ -108,6 +108,14 @@ console.log(cars)
 */
 const justTrims = []
 
+//CREIAMO UN CICLO CHE ENTRA NEL ARRAY DI OGETTI CARS, E PRENDE IL PRIMO INDICE DI TRIMS(0) E LO PUSHIAMO NEL NUOVO ARRAY
+for(i = 0; i < cars.length; i++){
+  let trims = cars[i].trims[0]
+  justTrims.push(trims)
+}
+
+console.log(justTrims)
+
 /* ESERCIZIO 8
     Cicla l'array "cars" e costruisci un if/else statament per mostrare due diversi messaggi in console. Se la prima lettera della proprietà
     "color" ha valore "b", mostra in console "Fizz". Altrimenti, mostra in console "Buzz".
