@@ -44,3 +44,43 @@ width: 100%;
 .font-white{
     color: white;
 }
+
+/* GIFT SECTION */
+
+.gift-cont{
+    width: 98%;
+    margin: 30px auto 20px auto;
+}
+
+.gift-button{
+    background-color: #F56600;
+    width: 100%;
+    border: none;
+    padding: 8px;
+}
+
+.gift-guide{
+    background-image: url(../images/bg-image.png);
+    background-size: cover;
+    background-position: center;
+    margin-top: 30px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.gift-title{
+    font-size: 30px;
+    font-weight: 550;
+}
+
+.p-top{
+    padding-top: 82px;
+    padding-bottom: 20px;
+}
+
+.gift-sub-title{
+    font-weight: 550;
+    padding-bottom: 40px;
+}
