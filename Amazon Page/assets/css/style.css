@@ -97,6 +97,7 @@ width: 100%;
 .gift-image-cont{
     background-color: white;
     padding: 15px 20px;;
+    margin-bottom: 30px;
 }
 
 .image-title{
@@ -119,4 +120,23 @@ width: 100%;
     padding: 0 10px 0;
     border-radius: 30px;
     box-shadow: 3px 3px 6px rgba(0,0,0,0.15);
+}
+
+/* PROD SECTION */
+.prod-section{
+    margin-bottom: 30px;
+}
+.prod-desc{
+    padding-top: 8px;
+    padding-bottom: 15px;
+}
+.img-prod{
+    width: 100%
+}
+
+.shop-buttonvdue{
+    border: none;
+    background-color: #E9EDEE;
+    color: #0B4B50;
+    font-weight: 700;
 }
