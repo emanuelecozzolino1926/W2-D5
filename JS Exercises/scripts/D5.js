@@ -65,6 +65,19 @@ const cars = [
     trims: ['life', 'style', 'r-line'],
   },
 ]
+//AGGIUNGIAMO LA PROPIETA LICENSEPLATE MA SFRUTTIAMO IL METODO MATHRANDOM PER GENERARE UNA TARGA CASUALE
+const plateChar = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
+
+for (let i = 0; i < cars.length; i++) {
+  let plate = ""
+  for (let j = 0; j < 7; j++) {
+    const randomIndex = Math.floor(Math.random() * plateChar.length)
+    plate += plateChar[randomIndex]
+  }
+  cars[i].licensePlate = plate
+}
+
+console.log(cars)
 
 /* ESERCIZIO 6
     Scrivi del codice per aggiungere un nuovo oggetto in ultima posizione nell'array "cars", rispettando la struttura degli altri elementi.
